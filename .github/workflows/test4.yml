@@ -18,10 +18,10 @@ jobs:
         run: |
           echo "Hello World from step1"
         shell: bash
-      # - name: "Fail"
-      #   run: |
-      #     exit 1
-      #   shell: bash
+      - name: "Fail"
+        run: |
+          exit 1
+        shell: bash
 
   job2:
     runs-on: ubuntu-latest
